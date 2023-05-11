@@ -1,0 +1,20 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: var(--chakra-sizes-60);
+  background-color: var(--chakra-colors-gray-700);
+}
+
+.sidebar-brand {
+  display: flex;
+  justify-content: center;
+  padding: var(--chakra-space-3) var(--chakra-space-2);
+}
+
+.sidebar-title {
+  color: var(--chakra-colors-white);
+  font-size: var(--chakra-fontSizes-xl);
+  font-weight: var(--chakra-fontWeights-semibold);
+}
